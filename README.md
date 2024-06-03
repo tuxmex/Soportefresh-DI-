@@ -29,6 +29,15 @@ El objetivo principal de este proyecto es diseñar y desarrollar un dispositivo 
 
 </div>
 
+## Software librerias
+<div align="center">
+
+| ID | Libreria    | Versión | Por/Para                                                     |
+|----|-------------|---------|---------------------------------------------------------|
+| 01 | DHT sensor library      | 1.4.6    | Adafruit/Sensor de temperatura y humedad dht11             |
+
+</div>
+
 
 ## Hardware Empleado
 
