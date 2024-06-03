@@ -65,8 +65,31 @@ El objetivo principal de este proyecto es diseñar y desarrollar un dispositivo 
 ![Primer Boceto](https://github.com/Fer33U/Soportefresh-DI-/blob/main/Bocetos/BocetoProyecto.png)
 
 ## Arquitectura del proyecto
-
+### Sensores
+  -Sensor DHT11 
+  -Sensor de temperatura infrarrojo
+  -Sensor de pulso cardiaco
+### Actuadores (Por definir correctamente "linterna")
+  -Ventilador
+  -Foco
+  -Zumbador
+  -Motor de vibración
+  -Módulo relay
+  -Pantalla
+### Controladores
+  -ESP32
+### Plataforma de base de datos
+  -SQLite (Posible cambio)
+### Protocolo de comunicación
+  -MQTT (Message Queuing Telemetry Transport)
+### Gestión de energía
+  -Banco de bateria (PowerBank, por definir como implementarlo))
+### Dispositivos receptores y/o transmisores
+  -Adaptadores de corriente y conectores
+  
 ## Tablero kanban
+### Sprint 1
+![Sprint 1](https://github.com/Fer33U/Soportefresh-DI-/blob/main/Sprints/Sprint%201.png) 
   
 ## Circuito diseñado para el proyecto completo 
 | Nombre    | Versión | Sprint | Ilustración  |
