@@ -1,4 +1,4 @@
-# Soportefresh-DI-
+# Nombre del proyecto Soportefresh-DI-
 
 ## Objetivo del proyecto
 El objetivo principal de este proyecto es diseñar y desarrollar un dispositivo que pueda integrarse fácilmente con el proposito de mantener fresco a las personas en  diferentes ambitos de su dia a dia para mantenerse comodo y poder consultar elementos generales del cuerpo o el ambiente.
