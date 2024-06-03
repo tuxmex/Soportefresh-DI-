@@ -1,7 +1,12 @@
 # Nombre del proyecto Soportefresh-DI-
 
 ## Visión  del proyecto
-El objetivo principal de este proyecto es diseñar y desarrollar un dispositivo que pueda integrarse fácilmente con el proposito de mantener fresco a las personas en  diferentes ambitos de su dia a dia para mantenerse comodo y poder consultar elementos generales del cuerpo o el ambiente.
+El objetivo principal de este proyecto es diseñar y desarrollar un dispositivo innovador que mantenga fresco a sus usuarios en diversas situaciones cotidianas y ofrezca capacidades para monitorear elementos generales del cuerpo y del ambiente, proporcionando una experiencia de comodidad y bienestar en la vida diaria. El mercado actual cuenta con varios dispositivos que ofrecen funciones de refrigeración personal, monitoreo corporal y ambiental, aunque ninguno integra todas estas capacidades en un solo dispositivo portátil. Este dispositivo beneficiará a una amplia gama de personas:
+
+  -Profesionales: Trabajadores de oficinas y profesionales de campo que buscan mantenerse frescos y monitorear su salud y el ambiente.
+  -Deportistas: Corredores, ciclistas, excursionistas y campistas que necesitan mantenerse frescos y monitorear su estado físico y las condiciones ambientales.
+  -Personas con necesidades médicas especiales: Aquellos con problemas de regulación de la temperatura o condiciones de salud crónicas que requieren monitoreo constante.
+  -Público en general: Personas en climas cálidos y usuarios de tecnología de bienestar interesados en monitorear su salud y el entorno.
 
 ## Integrantes
 - Jesus Fernando Gonzalez Pedroza
