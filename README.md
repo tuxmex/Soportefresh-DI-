@@ -95,13 +95,13 @@ El objetivo principal de este proyecto es diseñar y desarrollar un dispositivo 
 ### Protocolo de comunicación
   -MQTT (Message Queuing Telemetry Transport)
 ### Gestión de energía
-  -Banco de bateria (PowerBank, por definir como implementarlo))
+  -Baterias recargables (Por definir)
 ### Dispositivos receptores y/o transmisores
   -Adaptadores de corriente y conectores
   
 ## Tablero kanban
 ### Sprint 1
-![Sprint 1](https://github.com/Fer33U/Soportefresh-DI-/blob/main/Sprints%20Trello/Sprint%201.png) 
+![Sprint 1](https://github.com/Fer33U/Soportefresh-DI-/blob/main/SprintsTrello/SprintsTrello.png) 
   
 ## Circuito diseñado para el proyecto completo 
 | Nombre    | Versión | Sprint | Ilustración  |
@@ -123,7 +123,7 @@ El objetivo principal de este proyecto es diseñar y desarrollar un dispositivo 
   ![CircuitoLinterna](https://github.com/Fer33U/Soportefresh-DI-/blob/main/Sprints/Sprint%201/CircuitoLinterna.jpeg)
 
   -Encender mini ventilador conforme a la temperatuta ambiente:
-  Se logro codificar la funcionalidad de encender el mini ventilador cuando hay una temperatura mayor o igual a 34 grados, existe un problema en cuanto a la potencia que recibe el ventilador ya que actualmente no llega a tener los 12v necesarios para que funcione sin dar un pequeno empuje.
+  Se logro codificar la funcionalidad de encender el mini ventilador cuando hay una temperatura mayor o igual a 34 grados.
   
   -Codigo:
   
@@ -134,7 +134,7 @@ El objetivo principal de este proyecto es diseñar y desarrollar un dispositivo 
   ![CircuitoVentilador](https://github.com/Fer33U/Soportefresh-DI-/blob/main/Sprints/Sprint%201/CircuitoVentilador.jpeg)
 
   -Conclusiones:
-  Se observo que se requiere adquirir componentes nuevos que sean necesarios para poder realizar la funcionalidad de la "linterna" ademas lograr otorgar la potencia correcta para el ventilador, tambien se adquiriran en el siguiente sprint lo necesario para continuar con el proyecto, como sensores y otros actuadores necesarios.
+  Se observo que se requiere adquirir componentes nuevos que sean necesarios para poder realizar la funcionalidad de la "linterna", se adquiriran en el siguiente sprint lo necesario para continuar con el proyecto, como sensores y otros actuadores necesarios.
 
 
 
