@@ -10,13 +10,18 @@ El objetivo principal de este proyecto es diseñar y desarrollar un dispositivo 
 - Edna Nazaret Martinez Prado
 
 ## Software Empleado
+
 <div align="center">
-| ID | Software | Versión | Tipo |
-|----|----------|---------|------|
-| 01 | Github | N/A | Plataforma de alojamiento (licencia libre) |
-| 02 | Arduino IDE | 2.3.2 | Entorno de desarrollo (licencia libre) |
-| 03 | Krita | 2.3.2 | Software de pintura digital e ilustración  Licencia pública general GNU (versión 3 o posterior) |
+
+| ID | Software    | Versión | Tipo                                                    |
+|----|-------------|---------|---------------------------------------------------------|
+| 01 | Github      | N/A     | Plataforma de alojamiento (licencia libre)              |
+| 02 | Arduino IDE | 2.3.2   | Entorno de desarrollo (licencia libre)                  |
+| 03 | Krita       | 4.4.3   | Software de pintura digital e ilustración               |
+|    |             |         | Licencia pública general GNU (versión 3 o posterior)    |
+
 </div>
+
 
 ## Hardware Empleado
 
