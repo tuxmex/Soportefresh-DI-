@@ -25,7 +25,7 @@ El objetivo principal de este proyecto es diseñar y desarrollar un dispositivo 
   |--------------------------------|----------------------------------------------------------------------------------------------|-------------------------------------------------|----------|
   | ESP32                          | ![Imagen1](https://github.com/Fer33U/Soportefresh-DI-/blob/main/hardware/esp32.jpg)       | Microcontrolador con Wi-Fi y Bluetooth integrado| 1        |
   | USB (Transferencia de datos)   | ![Imagen2](https://github.com/Fer33U/Soportefresh-DI-/blob/main/hardware/usb.jpg)         | Cable estándar para la transferencia de datos   | 1        |
-  | Led                            | ![Imagen3](https://github.com/Fer33U/Soportefresh-DI-/blob/main/hardware/led.jpg)         | Dispositivo de iluminación                      | 2        |
+  | Led                            | ![Imagen3](https://github.com/Fer33U/Soportefresh-DI-/blob/main/hardware/LEDs.jpg)         | Dispositivo de iluminación                      | 2        |
   | Sensor DHT11                   | ![Imagen4](https://github.com/Fer33U/Soportefresh-DI-/blob/main/hardware/dht11.jpg)       | Sensor de temperatura y humedad                 | 1        |
   | Foco                           | ![Imagen5](https://github.com/Fer33U/Soportefresh-DI-/blob/main/hardware/foco.jpg)         | Fuente de luz eléctrica                         | 1        |
   | Soquet                         | ![Imagen6](https://github.com/Fer33U/Soportefresh-DI-/blob/main/hardware/socket.jpg)      | Conector para bombillas                         | 1        |
