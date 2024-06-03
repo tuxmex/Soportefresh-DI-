@@ -20,7 +20,9 @@ El objetivo principal de este proyecto es diseñar y desarrollar un dispositivo 
 ## Hardware Empleado
 <div align="center">
   | Nombre                         | Imagen                           | Descripción                                     | Cantidad |
+  
   |--------------------------------|----------------------------------|-------------------------------------------------|----------|
+  
   | ESP32                          | ![Imagen1](url_de_la_imagen)    | Microcontrolador con Wi-Fi y Bluetooth integrado| 1        |
   | USB (Transferencia de datos)   | ![Imagen2](url_de_la_imagen)    | Cable estándar para la transferencia de datos   | 1        |
   | Led                            | ![Imagen3](url_de_la_imagen)    | Dispositivo de iluminación                      | 2        |
