@@ -103,18 +103,22 @@ El objetivo principal de este proyecto es diseñar y desarrollar un dispositivo 
   Se tuvieron complicaciones en el hardware para poder detectar la fotorresistencia correctamente se logro codificar la funcionalidad pero aun sin probar con un componente funcional, de momento se enciende el led pero no toma la lectura de los datos lanzados por la fotorresistencia
   
   -Codigo:
+  
   ![CodigoLinterna](https://github.com/Fer33U/Soportefresh-DI-/blob/main/Sprints/Sprint%201/CodigoLinterna.png) 
   
   -Circuito:
+  
   ![CircuitoLinterna](https://github.com/Fer33U/Soportefresh-DI-/blob/main/Sprints/Sprint%201/CircuitoLinterna.jpeg)
 
   -Encender mini ventilador conforme a la temperatuta ambiente:
   Se logro codificar la funcionalidad de encender el mini ventilador cuando hay una temperatura mayor o igual a 34 grados, existe un problema en cuanto a la potencia que recibe el ventilador ya que actualmente no llega a tener los 12v necesarios para que funcione sin dar un pequeno empuje.
   
   -Codigo:
+  
   ![CodigoVentilador](https://github.com/Fer33U/Soportefresh-DI-/blob/main/Sprints/Sprint%201/CodigoVentilador.png) 
   
   -Circuito:
+  
   ![CircuitoVentilador](https://github.com/Fer33U/Soportefresh-DI-/blob/main/Sprints/Sprint%201/CircuitoVentilador.jpeg)
 
   -Conclusiones:
