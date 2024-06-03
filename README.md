@@ -48,6 +48,9 @@ El objetivo principal de este proyecto es diseñar y desarrollar un dispositivo 
   | Zumbador                       | ![Imagen10](https://github.com/Fer33U/Soportefresh-DI-/blob/main/hardware/zumbador.jpg)   | Dispositivo que emite sonido                    | 1        |
   | Motor de vibración             | ![Imagen11](https://github.com/Fer33U/Soportefresh-DI-/blob/main/hardware/motorvibracion.jpg) | Dispositivo que produce vibraciones             | 3        |
   | Pantalla                       | ![Imagen12](https://github.com/Fer33U/Soportefresh-DI-/blob/main/hardware/pantalla.jpg)   | Dispositivo de visualización                    | 1        |
+  | Cables Jumper| ![Imagen13](https://github.com/Fer33U/Soportefresh-DI-/blob/main/hardware/CablesJumper.jpg)|  | 60        |
+  | Fotorresistencia                       | ![Imagen14](https://github.com/Fer33U/Soportefresh-DI-/blob/main/hardware/Fotorresistencia.jpg)   | Es una resistencia, cuyo valor en ohmios, varía ante las variaciones de la luz.                    | 1        |
+  | Raspberry pi 4| ![Imagen15](https://github.com/Fer33U/Soportefresh-DI-/blob/main/hardware/RaspberryPi.jpg)| Ordenador de bajo coste y formato compacto destinado al desarrollado | 1        |
 
 </div>
 
