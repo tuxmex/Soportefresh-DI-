@@ -1,9 +1,7 @@
 # Nombre del proyecto Soportefresh-DI-
 
-## Objetivo del proyecto
+## Visión  del proyecto
 El objetivo principal de este proyecto es diseñar y desarrollar un dispositivo que pueda integrarse fácilmente con el proposito de mantener fresco a las personas en  diferentes ambitos de su dia a dia para mantenerse comodo y poder consultar elementos generales del cuerpo o el ambiente.
-
-## Enunciado de visión
 
 ## Integrantes
 - Jesus Fernando Gonzalez Pedroza
@@ -56,5 +54,10 @@ El objetivo principal de este proyecto es diseñar y desarrollar un dispositivo 
 ## Tablero kanban
   
 ## Circuito diseñado para el proyecto completo 
+| Nombre    | Versión | Sprint | Ilustración  |
+|-----------|---------|-------------|---------|
+| Linterna  | 1.0.0   | Sprint 1 | ![Ilustración](https://github.com/Fer33U/Soportefresh-DI-/blob/main/Circuitos/Linterna%20V1.0.png)  |
+| Ventilador | 1.0.0   | Sprint 1| ![Ilustración](https://github.com/Fer33U/Soportefresh-DI-/blob/main/Circuitos/Ventilador%20V1.0.png)  |
 
 ## Resultados
+
