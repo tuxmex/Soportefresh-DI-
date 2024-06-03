@@ -44,7 +44,22 @@ El objetivo principal de este proyecto es diseñar y desarrollar un dispositivo 
 
 
 ## Historias de usuario épicas 
+### Historia de Usuario Épica 1: Monitoreo de Factores Ambientales y del Usuario
+**Como** usuario del dispositivo inteligente,  
+**quiero** que el dispositivo pueda detectar y monitorear diversos factores ambientales y corporales,  
+**para que** pueda obtener información en tiempo real sobre mi entorno y mi estado de salud.
 
+### Historia de Usuario Épica 2: Activar diversos actuadores conforme a los factores ambientales o del usuario
+**Como** usuario del dispositivo inteligente,  
+**quiero** que el dispositivo pueda activar diferentes actuadores para diversos propositos conforme a los factores ambientales y corporales,  
+**para que** pueda aprovechar las funcionaledades del dispositivo.
+
+### Historia de Usuario Épica 3: Creacion de interfaz para monitoreo y control
+**Como** usuario del dispositivo inteligente,  
+**quiero** que el dispositivo tenga una interfaz donde pueda monitorear los factores ambientales y corporales ademas de activar a su conveniencia las funcionalidades incorporadas,  
+**para que** pueda conocer de manera grafica los factores ambientales y corporales y/o activacion de las funcionaledes del dispositivo.
+
+   
 # Prototipo propuesto
 ## Primer Boceto
 ![Primer Boceto](https://github.com/Fer33U/Soportefresh-DI-/blob/main/Bocetos/BocetoProyecto.png)
