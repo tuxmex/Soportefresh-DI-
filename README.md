@@ -89,7 +89,7 @@ El objetivo principal de este proyecto es diseñar y desarrollar un dispositivo 
   
 ## Tablero kanban
 ### Sprint 1
-![Sprint 1](https://github.com/Fer33U/Soportefresh-DI-/blob/main/Sprints/Sprint%201.png) 
+![Sprint 1](https://github.com/Fer33U/Soportefresh-DI-/blob/main/Sprints%20Trello/Sprint%201.png) 
   
 ## Circuito diseñado para el proyecto completo 
 | Nombre    | Versión | Sprint | Ilustración  |
@@ -98,4 +98,25 @@ El objetivo principal de este proyecto es diseñar y desarrollar un dispositivo 
 | Ventilador | 1.0.0   | Sprint 1| ![Ilustración](https://github.com/Fer33U/Soportefresh-DI-/blob/main/Circuitos/Ventilador%20V1.0.png)  |
 
 ## Resultados
+### Sprint 1
+  -Encender luz conforme a la luz detectada:
+  Se tuvieron complicaciones en el hardware para poder detectar la fotorresistencia correctamente se logro codificar la funcionalidad pero aun sin probar con un componente funcional, de momento se enciende el led pero no toma la lectura de los datos lanzados por la fotorresistencia
+  Codigo:
+  ![CodigoLinterna](https://github.com/Fer33U/Soportefresh-DI-/blob/main/Sprints/Sprint%201/CodigoLinterna.png) 
+  Circuito:
+  ![CircuitoLinterna](https://github.com/Fer33U/Soportefresh-DI-/blob/main/Sprints/Sprint%201/CircuitoLinterna.jpeg)
 
+  -Encender mini ventilador conforme a la temperatuta ambiente:
+  Se logro codificar la funcionalidad de encender el mini ventilador cuando hay una temperatura mayor o igual a 34 grados, existe un problema en cuanto a la potencia que recibe el ventilador ya que actualmente no llega a tener los 12v necesarios para que funcione sin dar un pequeno empuje.
+  Codigo:
+  ![CodigoVentilador](https://github.com/Fer33U/Soportefresh-DI-/blob/main/Sprints/Sprint%201/CodigoVentilador.png) 
+  Circuito:
+  ![CircuitoVentilador](https://github.com/Fer33U/Soportefresh-DI-/blob/main/Sprints/Sprint%201/CircuitoVentilador.jpeg)
+
+  -Conclusiones:
+  Se observo que se requiere adquirir componentes nuevos que sean necesarios para poder realizar la funcionalidad de la "linterna" ademas lograr otorgar la potencia correcta para el ventilador, tambien se adquiriran en el siguiente sprint lo necesario para continuar con el proyecto, como sensores y otros actuadores necesarios.
+
+
+
+
+  
