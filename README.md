@@ -41,7 +41,9 @@ El objetivo principal de este proyecto es diseñar y desarrollar un dispositivo 
 
 ## Historias de usuario épicas 
 
-## Prototipo propuesto
+# Prototipo propuesto
+## Primer Boceto
+![Primer Boceto](https://github.com/Fer33U/Soportefresh-DI-/blob/main/Bocetos/BocetoProyecto.png)
 
 ## Arquitectura del proyecto
 
