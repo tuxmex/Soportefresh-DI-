@@ -55,14 +55,20 @@ El objetivo principal de este proyecto es diseñar y desarrollar un dispositivo 
 <div align="center">
 
   | Nombre                         | Imagen                                                                                       | Descripción                                     | Cantidad |
-  |--------------------------------|----------------------------------------------------------------------------------------------|-------------------------------------------------|----------|
-  | ESP32                          | ![Imagen1](https://github.com/Fer33U/Soportefresh-DI-/blob/main/hardware/esp32.jpg)       | Microcontrolador con Wi-Fi y Bluetooth integrado| 1        |
-  | USB (Transferencia de datos)   | ![Imagen2](https://github.com/Fer33U/Soportefresh-DI-/blob/main/hardware/usb.jpg)         | Cable estándar para la transferencia de datos   | 1        |
-  | Sensor DHT11                   | ![Imagen4](https://github.com/Fer33U/Soportefresh-DI-/blob/main/hardware/dht11.jpg)       | Sensor de temperatura y humedad                 | 1        |
-  | Zumbador                       | ![Imagen10](https://github.com/Fer33U/Soportefresh-DI-/blob/main/hardware/zumbador.jpg)   | Dispositivo que emite sonido                    | 1        |
-  | Pantalla Oled                      | ![Imagen12](https://github.com/Fer33U/Soportefresh-DI-/blob/main/hardware/Pantalla%20Oled.jpg)   | Dispositivo de visualización                    | 1        |
-  | Cables Jumper| ![Imagen13](https://github.com/Fer33U/Soportefresh-DI-/blob/main/hardware/CablesJumper.jpg)|  | 60        |
-  | Fotorresistencia                       | ![Imagen14](https://github.com/Fer33U/Soportefresh-DI-/blob/main/hardware/Fotorresistencia.jpg)   | Es una resistencia, cuyo valor en ohmios, varía ante las variaciones de la luz.                    | 1        |
+|--------------------------------|----------------------------------------------------------------------------------------------|-------------------------------------------------|----------|
+| ESP32                          | ![Imagen1](https://github.com/Fer33U/Soportefresh-DI-/blob/main/hardware/esp32.jpg)           | Microcontrolador con Wi-Fi y Bluetooth integrado | 1        |
+| USB (Transferencia de datos)   | ![Imagen2](https://github.com/Fer33U/Soportefresh-DI-/blob/main/hardware/usb.jpg)             | Cable estándar para la transferencia de datos    | 1        |
+| Sensor DHT11                   | ![Imagen4](https://github.com/Fer33U/Soportefresh-DI-/blob/main/hardware/dht11.jpg)           | Sensor de temperatura y humedad                  | 1        |
+| Zumbador                       | ![Imagen10](https://github.com/Fer33U/Soportefresh-DI-/blob/main/hardware/zumbador.jpg)       | Dispositivo que emite sonido                     | 1        |
+| Pantalla Oled                  | ![Imagen12](https://github.com/Fer33U/Soportefresh-DI-/blob/main/hardware/Pantalla%20Oled.jpg)| Dispositivo de visualización                     | 1        |
+| Cables Jumper                  | ![Imagen13](https://github.com/Fer33U/Soportefresh-DI-/blob/main/hardware/CablesJumper.jpg)   | Cables para conexiones                           | 60       |
+| Fotorresistencia               | ![Imagen14](https://github.com/Fer33U/Soportefresh-DI-/blob/main/hardware/Fotorresistencia.jpg)| Resistencia que varía según la luz               | 1        |
+| Batería recargable             | ![Imagen15](https://github.com/Fer33U/Soportefresh-DI-/blob/main/hardware/bateriarecarcable.jpg)| Fuente de energía portátil                       | 1        |
+| LED                            |![Imagen16](https://github.com/Fer33U/Soportefresh-DI-/blob/main/hardware/leds.jpg)| Diodo emisor de luz                              | 2        |
+| Tela                           |![Imagen17](https://github.com/Fer33U/Soportefresh-DI-/blob/main/hardware/tela.jpg)| Material textil                                  | 40 cm    |
+| Hilo                           |![Imagen18](https://github.com/Fer33U/Soportefresh-DI-/blob/main/hardware/hilo.jpg)| Material de costura                              | 1 rollo  |
+| Relleno de poliéster           |![Imagen19](https://github.com/Fer33U/Soportefresh-DI-/blob/main/hardware/relleno.jpg)| Material para relleno                            | 200 gr   |
+
 
 </div>
 
