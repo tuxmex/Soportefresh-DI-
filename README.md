@@ -126,8 +126,8 @@ El objetivo principal de este proyecto es diseñar y desarrollar un dispositivo 
 ## Tablero kanban
 A continuacion se puede encontrar el tablero kanban creado en la herramienta de Trello
 https://trello.com/invite/b/tsSt2txj/ATTI4163c73ce090c5162d09b6ca5659eec044670458/soportefresh
-### Sprint 1
-![Sprint 1](https://github.com/Fer33U/Soportefresh-DI-/blob/main/SprintsTrello/SprintsTrello.png) 
+### Sprints
+![Sprints](https://github.com/Fer33U/Soportefresh-DI-/blob/main/Sprints/SPRINTS.png) 
   
 ## Circuito diseñado para el proyecto completo 
 | Nombre    | Versión | Sprint | Ilustración  |
