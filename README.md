@@ -152,6 +152,13 @@ https://trello.com/invite/b/tsSt2txj/ATTI4163c73ce090c5162d09b6ca5659eec04467045
   -Conclusiones:
   Se observo que se requiere adquirir componentes nuevos que sean necesarios para poder realizar la funcionalidad de la "linterna", se adquiriran en el siguiente sprint lo necesario para continuar con el proyecto, como sensores y otros actuadores necesarios.
 
+### Sprint 2
+  - Descripción:
+    Durante este sprint se implementaron cambios significativos en el backlog, las historias de usuario y la arquitectura del proyecto. Se redefinió el objetivo y el enfoque del desarrollo, ya que se encontraron complicaciones importantes en la activación del ventilador y los motores de vibración. Estos desafíos llevaron a una reevaluación del proyecto para abordar mejor las dificultades encontradas.
+    
+  - Conclusiones:
+    Se decidió realizar ajustes en los componentes y en el enfoque del proyecto para superar las complicaciones experimentadas. Estos cambios permitirán un desarrollo más eficiente y adaptado a las necesidades detectadas durante el sprint.
+
 
 
 
