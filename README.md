@@ -163,14 +163,14 @@ https://trello.com/invite/b/tsSt2txj/ATTI4163c73ce090c5162d09b6ca5659eec04467045
   - Descripción:
     En este sprint se completó la configuración del código para el ESP32 y del aplicativo en Flutter, garantizando su interconexión con las funcionalidades y gráficos previstos. Además, se construyó el collarín utilizando tela, se ensambló el circuito en su totalidad y se llevaron a cabo pruebas exhaustivas para verificar el correcto funcionamiento del sistema.
 - Código
-
+- 
 Podrás encontrar el código de todo el proyecto correspondiente a lo siguiente:
 
-    - [App Flutter](http://example.com/flutter-app)
-    
-    - [Arduino IDE](https://github.com/Fer33U/Soportefresh-DI-/tree/main/Sprint%203/Arduino%20IDE)
-    
-    - [Node-red](https://github.com/Fer33U/Soportefresh-DI-/tree/main/Sprint%203/Node-red)
+  - [App Flutter](http://example.com/flutter-app)
+
+  - [Arduino IDE](https://github.com/Fer33U/Soportefresh-DI-/tree/main/Sprint%203/Arduino%20IDE)
+
+  - [Node-RED](https://github.com/Fer33U/Soportefresh-DI-/tree/main/Sprint%203/Node-red)
 
 - Circuito
 ![CircuitoFinal](https://github.com/Fer33U/Soportefresh-DI-/blob/main/Sprint%203/Circuito.jpeg)
