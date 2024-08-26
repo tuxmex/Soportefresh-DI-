@@ -166,11 +166,11 @@ https://trello.com/invite/b/tsSt2txj/ATTI4163c73ce090c5162d09b6ca5659eec04467045
 
 Podrás encontrar el código de todo el proyecto correspondiente a lo siguiente:
 
-  - [App Flutter](http://example.com/flutter-app)
+   [App Flutter](http://example.com/flutter-app)
 
-  - [Arduino IDE](https://github.com/Fer33U/Soportefresh-DI-/tree/main/Sprint%203/Arduino%20IDE)
+   [Arduino IDE](https://github.com/Fer33U/Soportefresh-DI-/tree/main/Sprint%203/Arduino%20IDE)
 
-  - [Node-RED](https://github.com/Fer33U/Soportefresh-DI-/tree/main/Sprint%203/Node-red)
+   [Node-RED](https://github.com/Fer33U/Soportefresh-DI-/tree/main/Sprint%203/Node-red)
 
 - Circuito
 ![CircuitoFinal](https://github.com/Fer33U/Soportefresh-DI-/blob/main/Sprint%203/Circuito.jpeg)
