@@ -159,6 +159,13 @@ https://trello.com/invite/b/tsSt2txj/ATTI4163c73ce090c5162d09b6ca5659eec04467045
   - Conclusiones:
     Se decidió realizar ajustes en los componentes y en el enfoque del proyecto para superar las complicaciones experimentadas. Estos cambios permitirán un desarrollo más eficiente y adaptado a las necesidades detectadas durante el sprint.
 
+## Sprint 3
+  - Descripción:
+    En este sprint se completó la configuración del código para el ESP32 y del aplicativo en Flutter, garantizando su interconexión con las funcionalidades y gráficos previstos. Además, se construyó el collarín utilizando tela, se ensambló el circuito en su totalidad y se llevaron a cabo pruebas exhaustivas para verificar el correcto funcionamiento del sistema.
+
+  - Conclusiones:
+    El desarrollo del proyecto enfrentó diversas complicaciones y requirió ajustes significativos para la finalización del dispositivo. No obstante, este proceso ha sido altamente educativo, proporcionando unaintegrac comprensión profunda sobre la ión de software y hardware en aplicaciones diversas. La experiencia adquirida será invaluable para futuros proyectos que exijan una combinación efectiva de ambas disciplinas.
+
 
 
 
