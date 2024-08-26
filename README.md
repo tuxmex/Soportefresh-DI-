@@ -138,18 +138,18 @@ https://trello.com/invite/b/tsSt2txj/ATTI4163c73ce090c5162d09b6ca5659eec04467045
 
 ## Resultados
 ### Sprint 1
-  -Encender mini ventilador conforme a la temperatuta ambiente:
+  - Encender mini ventilador conforme a la temperatuta ambiente:
   Se logro codificar la funcionalidad de encender el mini ventilador cuando hay una temperatura mayor o igual a 34 grados.
   
-  -Codigo:
+  - Codigo:
   
   ![CodigoVentilador](https://github.com/Fer33U/Soportefresh-DI-/blob/main/Sprints/Sprint%201/CodigoVentilador.png) 
   
-  -Circuito:
+  - Circuito:
   
   ![CircuitoVentilador](https://github.com/Fer33U/Soportefresh-DI-/blob/main/Sprints/Sprint%201/CircuitoVentilador.jpeg)
 
-  -Conclusiones:
+  - Conclusiones:
   Se observo que se requiere adquirir componentes nuevos que sean necesarios para poder realizar la funcionalidad de la "linterna", se adquiriran en el siguiente sprint lo necesario para continuar con el proyecto, como sensores y otros actuadores necesarios.
 
 ### Sprint 2
