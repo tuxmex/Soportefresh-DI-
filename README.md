@@ -130,9 +130,11 @@ https://trello.com/invite/b/tsSt2txj/ATTI4163c73ce090c5162d09b6ca5659eec04467045
 ![Sprints](https://github.com/Fer33U/Soportefresh-DI-/blob/main/Sprints/SPRINTS.png) 
   
 ## Circuito diseñado para el proyecto completo 
-| Nombre    | Versión | Sprint | Ilustración  |
-|-----------|---------|-------------|---------|
-| Ventilador | 1.0.0   | Sprint 1| ![Ilustración](https://github.com/Fer33U/Soportefresh-DI-/blob/main/Circuitos/Ventilador%20V1.0.png)  |
+| Nombre    | Versión | Sprint  | Ilustración  |
+|-----------|---------|---------|--------------|
+| Ventilador | 1.0.0   | Sprint 1 | ![Ilustración](https://github.com/Fer33U/Soportefresh-DI-/blob/main/Circuitos/Ventilador%20V1.0.png) |
+| Ventilador | 2.0.0   | Sprint 3 | ![Ilustración2](https://github.com/Fer33U/Soportefresh-DI-/blob/main/Circuitos/CirtcuitoFinal.png) |
+
 
 ## Resultados
 ### Sprint 1
