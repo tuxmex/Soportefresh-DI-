@@ -96,26 +96,32 @@ El objetivo principal de este proyecto es diseñar y desarrollar un dispositivo 
 ## Primer Boceto
 ![Primer Boceto](https://github.com/Fer33U/Soportefresh-DI-/blob/main/Bocetos/BocetoProyecto.png)
 
-## Arquitectura del proyecto
+## Arquitectura del Proyecto
+
 ### Sensores
-  -Sensor DHT11 
-  -Sensor de luz (Fotorresistencia)
-  -Sensor de pulso cardiaco
+- Sensor DHT11
+- Sensor de luz (fotorresistencia)
+
 ### Actuadores
-  -Ventilador
-  -Zumbador
-  -Motor de vibración
-  -Pantalla oled
+- Zumbador
+- Pantalla OLED
+- LEDs
+
 ### Controladores
-  -ESP32
-### Plataforma de base de datos
-  -SQLite (Posible cambio)
-### Protocolo de comunicación
-  -MQTT (Message Queuing Telemetry Transport)
-### Gestión de energía
-  -Bateria recargcable
-### Dispositivos receptores y/o transmisores
-  -Adaptadores de corriente y conectores
+- ESP32
+
+### Plataforma de Base de Datos
+- HeidiSQL
+
+### Protocolo de Comunicación
+- MQTT (Message Queuing Telemetry Transport)
+
+### Gestión de Energía
+- Batería recargable
+
+### Dispositivos Receptores y/o Transmisores
+- Adaptadores de corriente y conectores
+
   
 ## Tablero kanban
 A continuacion se puede encontrar el tablero kanban creado en la herramienta de Trello
