@@ -1,15 +1,15 @@
 # Nombre del proyecto Soportefresh-DI-
 
 ## Visión  del proyecto
-El objetivo principal de este proyecto es diseñar y desarrollar un dispositivo innovador que mantenga fresco a sus usuarios en diversas situaciones cotidianas y ofrezca capacidades para monitorear elementos generales del cuerpo y del ambiente, proporcionando una experiencia de comodidad y bienestar en la vida diaria. El mercado actual cuenta con varios dispositivos que ofrecen funciones de refrigeración personal, monitoreo corporal y ambiental, aunque ninguno integra todas estas capacidades en un solo dispositivo portátil. Este dispositivo beneficiará a una amplia gama de personas:
+El objetivo principal de este proyecto es diseñar y desarrollar un dispositivo innovador que permita a sus usuarios monitorear datos del ambiente, como la temperatura, humedad y luz, proporcionando información valiosa para mejorar su bienestar y comodidad en la vida diaria, aunque el mercado actual cuenta con varios dispositivos que ofrecen monitoreo ambiental, este proyecto se enfoca en integrar estas capacidades en un solo dispositivo portátil que no solo permite al usuario conocer y controlar mejor su entorno, sino que también contribuye a mantener una mayor comodidad en diversas situaciones cotidianas. Este dispositivo beneficiará a una amplia gama de personas, brindándoles mayor control sobre las condiciones ambientales a las que están expuestos.
 
-  -Profesionales: Trabajadores de oficinas y profesionales de campo que buscan mantenerse frescos y monitorear su salud y el ambiente.
-  
-  -Deportistas: Corredores, ciclistas, excursionistas y campistas que necesitan mantenerse frescos y monitorear su estado físico y las condiciones ambientales.
-  
-  -Personas con necesidades médicas especiales: Aquellos con problemas de regulación de la temperatura o condiciones de salud crónicas que requieren monitoreo constante.
-  
-  -Público en general: Personas en climas cálidos y usuarios de tecnología de bienestar interesados en monitorear su salud y el entorno.
+-Profesionales: Trabajadores de oficinas y profesionales de campo que buscan monitorear las condiciones ambientales, como la temperatura, humedad y luz, para mantener un entorno de trabajo cómodo y saludable.
+
+-Deportistas: Corredores, ciclistas, excursionistas y campistas que necesitan conocer y controlar las condiciones ambientales para optimizar su rendimiento y mantenerse cómodos durante sus actividades.
+
+-Personas con necesidades médicas especiales: Aquellos con problemas de regulación de la temperatura o condiciones de salud crónicas que requieren un monitoreo constante de las condiciones ambientales para asegurar su bienestar y comodidad.
+
+-Público en general: Personas que viven en climas cálidos o usuarios interesados en tecnología de bienestar que desean monitorear el ambiente a su alrededor para mantenerse cómodos y mejorar su calidad de vida.
 
 ## Integrantes
 - Jesus Fernando Gonzalez Pedroza
@@ -26,15 +26,26 @@ El objetivo principal de este proyecto es diseñar y desarrollar un dispositivo 
 | 03 | Krita       | 4.4.3   | Software de pintura digital e ilustración - Licencia pública general GNU (versión 3 o posterior)              |
 | 04 | Tinkercad   | N/A     | Herramienta para crear modelos tridimensionales - (Licencia libre)    |
 | 05 | Paint       | 22H2    | Programa editor de imágenes desarrollado por Microsoft - (Licencia libre)    |
+| 06 | Visual Studio Code | 1.92.2 | Editor de código desarrollado por Microsoft - (Licencia libre) |
+| 07 | Flutter | 3.22.2 | Framework de desarrollo de aplicaciones móviles y web desarrollado por Google - (Licencia libre) | 
+| 08 | Mosquitto | 2.0.18 | Broker de mensajes MQTT desarrollado por Eclipse Foundation - (Licencia libre) | 
+| 09 | HeidiSQL | 12.3.0.6589 | Herramienta de gestión y administración de bases de datos - (Licencia libre) | 
+| 10 | Node-RED | 3.1.9 | Plataforma de desarrollo para aplicaciones IoT basada en flujo - (Licencia libre) |
 
 </div>
 
 ## Software librerias
 <div align="center">
 
-| ID | Libreria    | Versión | Por/Para                                                     |
-|----|-------------|---------|---------------------------------------------------------|
-| 01 | DHT sensor library      | 1.4.6    | Adafruit/Sensor de temperatura y humedad dht11             |
+| ID  | Librería              | Versión | Por/Para                                            |
+|-----|-----------------------|---------|----------------------------------------------------|
+| 01  | Wire                  | -       | Arduino/Comunicación I2C                            |
+| 02  | Adafruit GFX Library  | 1.11.5  | Adafruit/Dibujos gráficos básicos                   |
+| 03  | Adafruit SSD1306      | 2.5.7   | Adafruit/Controlador de pantalla OLED               |
+| 04  | WiFi                  | 1.0     | Arduino/Conectividad WiFi                           |
+| 05  | PubSubClient          | 2.8.0   | Nick O’Leary/Cliente MQTT para Arduino              |
+| 06  | DHT                   | 1.4.6   | Adafruit/Sensor de temperatura y humedad DHT11      |
+| 07  | ArduinoJson           | 6.20.1  | Benoît Blanchon/Manipulación de JSON en Arduino     |
 
 </div>
 
@@ -48,9 +59,7 @@ El objetivo principal de este proyecto es diseñar y desarrollar un dispositivo 
   | ESP32                          | ![Imagen1](https://github.com/Fer33U/Soportefresh-DI-/blob/main/hardware/esp32.jpg)       | Microcontrolador con Wi-Fi y Bluetooth integrado| 1        |
   | USB (Transferencia de datos)   | ![Imagen2](https://github.com/Fer33U/Soportefresh-DI-/blob/main/hardware/usb.jpg)         | Cable estándar para la transferencia de datos   | 1        |
   | Sensor DHT11                   | ![Imagen4](https://github.com/Fer33U/Soportefresh-DI-/blob/main/hardware/dht11.jpg)       | Sensor de temperatura y humedad                 | 1        |
-  | Sensor de pulso cardiaco       | ![Imagen9](https://github.com/Fer33U/Soportefresh-DI-/blob/main/hardware/sensorCardiaco.png) | Sensor para medir la frecuencia cardíaca     | 1        |
   | Zumbador                       | ![Imagen10](https://github.com/Fer33U/Soportefresh-DI-/blob/main/hardware/zumbador.jpg)   | Dispositivo que emite sonido                    | 1        |
-  | Motor de vibración             | ![Imagen11](https://github.com/Fer33U/Soportefresh-DI-/blob/main/hardware/motorvibracion.jpg) | Dispositivo que produce vibraciones             | 3        |
   | Pantalla Oled                      | ![Imagen12](https://github.com/Fer33U/Soportefresh-DI-/blob/main/hardware/Pantalla%20Oled.jpg)   | Dispositivo de visualización                    | 1        |
   | Cables Jumper| ![Imagen13](https://github.com/Fer33U/Soportefresh-DI-/blob/main/hardware/CablesJumper.jpg)|  | 60        |
   | Fotorresistencia                       | ![Imagen14](https://github.com/Fer33U/Soportefresh-DI-/blob/main/hardware/Fotorresistencia.jpg)   | Es una resistencia, cuyo valor en ohmios, varía ante las variaciones de la luz.                    | 1        |
