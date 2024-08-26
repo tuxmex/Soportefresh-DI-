@@ -74,20 +74,22 @@ El objetivo principal de este proyecto es diseñar y desarrollar un dispositivo 
 
 
 ## Historias de usuario épicas 
-### Historia de Usuario Épica 1: Monitoreo de Factores Ambientales y del Usuario
+### Historia de Usuario Épica 1: Monitoreo de Factores Ambientales
 **Como** usuario del dispositivo inteligente,  
-**quiero** que el dispositivo pueda detectar y monitorear diversos factores ambientales y corporales,  
-**para que** pueda obtener información en tiempo real sobre mi entorno y mi estado de salud.
+**quiero que** el dispositivo pueda detectar y monitorear diversos factores ambientales,  
+**para que** pueda obtener información en tiempo real sobre mi entorno.
 
-### Historia de Usuario Épica 2: Activar diversos actuadores conforme a los factores ambientales o del usuario
+---
+### Historia de Usuario Épica 2: Activar Diversos Actuadores Conforme a los Factores Ambientales.
 **Como** usuario del dispositivo inteligente,  
-**quiero** que el dispositivo pueda activar diferentes actuadores para diversos propositos conforme a los factores ambientales y corporales,  
-**para que** pueda aprovechar las funcionaledades del dispositivo.
+**quiero que** el dispositivo pueda activar diferentes actuadores para diversos propósitos conforme a los factores ambientales,  
+**para que** pueda aprovechar las funcionalidades del dispositivo.
 
-### Historia de Usuario Épica 3: Creacion de interfaz para monitoreo y control
+---
+### Historia de Usuario Épica 3: Creación de Interfaz para Monitoreo y Control
 **Como** usuario del dispositivo inteligente,  
-**quiero** que el dispositivo tenga una interfaz donde pueda monitorear los factores ambientales y corporales ademas de activar a su conveniencia las funcionalidades incorporadas,  
-**para que** pueda conocer de manera grafica los factores ambientales y corporales y/o activacion de las funcionaledes del dispositivo.
+**quiero que** el dispositivo tenga una interfaz donde pueda monitorear los factores ambientales, además de activar a su conveniencia las funcionalidades incorporadas,  
+**para que** pueda conocer de manera gráfica los factores ambientales y/o la activación de las funcionalidades del dispositivo.
 
    
 # Prototipo propuesto
