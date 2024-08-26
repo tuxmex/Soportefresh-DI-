@@ -165,13 +165,14 @@ https://trello.com/invite/b/tsSt2txj/ATTI4163c73ce090c5162d09b6ca5659eec04467045
 - Código
 
 Podrás encontrar el código de todo el proyecto correspondiente a lo siguiente:
-  - **App Flutter**: [Ruta a la URL](http://example.com/flutter-app)
-  - **Arduino IDE**: [Ruta a la URL](https://github.com/Fer33U/Soportefresh-DI-/tree/main/Sprint%203/Arduino%20IDE)
-  - **Node-RED**: [Ruta a la URL](https://github.com/Fer33U/Soportefresh-DI-/tree/main/Sprint%203/Node-red)
+    - [App Flutter](http://example.com/flutter-app)
+    - [Arduino IDE](https://github.com/Fer33U/Soportefresh-DI-/tree/main/Sprint%203/Arduino%20IDE)
+    - [Node-red](https://github.com/Fer33U/Soportefresh-DI-/tree/main/Sprint%203/Node-red)
 
 - Circuito
 ![CircuitoFinal](https://github.com/Fer33U/Soportefresh-DI-/blob/main/Sprint%203/Circuito.jpeg)
 - Conclusiones:
+
     El desarrollo del proyecto enfrentó diversas complicaciones y requirió ajustes significativos para la finalización del dispositivo. No obstante, este proceso ha sido altamente educativo, proporcionando unaintegrac comprensión profunda sobre la ión de software y hardware en aplicaciones diversas. La experiencia adquirida será invaluable para futuros proyectos que exijan una combinación efectiva de ambas disciplinas.
 
 
