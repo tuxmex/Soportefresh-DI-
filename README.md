@@ -178,6 +178,12 @@ Podrás encontrar el código de todo el proyecto correspondiente a lo siguiente:
 
     El desarrollo del proyecto enfrentó diversas complicaciones y requirió ajustes significativos para la finalización del dispositivo. No obstante, este proceso ha sido altamente educativo, proporcionando unaintegrac comprensión profunda sobre la ión de software y hardware en aplicaciones diversas. La experiencia adquirida será invaluable para futuros proyectos que exijan una combinación efectiva de ambas disciplinas.
 
+- Resultados finales:
+
+Se desarrolló el dispositivo, el cual puede ser usado de forma cómoda. Este dispositivo detecta información del ambiente y acciona los LEDs o el buzzer. Además, incluye la integración de una pantalla OLED y una aplicación Flutter.
+ 
+
+
 
 
 
