@@ -1,0 +1,260 @@
+[
+    {
+        "id": "2a7978bd843cbc7d",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "8015e03eeb2c7f17",
+        "type": "mqtt in",
+        "z": "2a7978bd843cbc7d",
+        "name": "",
+        "topic": "soporte/datos",
+        "qos": "0",
+        "datatype": "utf8",
+        "broker": "b0f686140614310c",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 130,
+        "y": 160,
+        "wires": [
+            [
+                "290508631a10528d",
+                "905b6aa8962928f0"
+            ]
+        ]
+    },
+    {
+        "id": "290508631a10528d",
+        "type": "debug",
+        "z": "2a7978bd843cbc7d",
+        "name": "debug 7",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 360,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "905b6aa8962928f0",
+        "type": "function",
+        "z": "2a7978bd843cbc7d",
+        "name": "Insertar datos sensores",
+        "func": "// Extraer datos de la cadena recibida\nvar payload = msg.payload;\n\n// Usar expresiones regulares para extraer los valores de temperatura, humedad y LDR\nvar tempMatch = payload.match(/Temperatura:\\s*([\\d.]+)C/);\nvar humMatch = payload.match(/Humedad:\\s*([\\d.]+)%/);\nvar ldrMatch = payload.match(/LDR:\\s*(\\d+)/);\n\n// Comprobar si las coincidencias fueron encontradas\nvar temperatura = tempMatch ? tempMatch[1] : \"NULL\";\nvar humedad = humMatch ? humMatch[1] : \"NULL\";\nvar ldr = ldrMatch ? ldrMatch[1] : \"NULL\";\n\n// Crear la consulta SQL\nmsg.topic = \"INSERT INTO sensores (temperatura, humedad, ldr, timestamp) VALUES (\" +\n    temperatura + \", \" +\n    humedad + \", \" +\n    ldr + \", NOW());\";\n\n// Enviar el mensaje al nodo MySQL\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 350,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b25424a916bedfe8",
+        "type": "mysql",
+        "z": "2a7978bd843cbc7d",
+        "mydb": "628511a9be62c2be",
+        "name": "BD SoporteF",
+        "x": 450,
+        "y": 280,
+        "wires": [
+            [
+                "ac99919fcdafa256"
+            ]
+        ]
+    },
+    {
+        "id": "38ae18660fd3ba5d",
+        "type": "mqtt in",
+        "z": "2a7978bd843cbc7d",
+        "name": "",
+        "topic": "soporte/parpadeo",
+        "qos": "0",
+        "datatype": "auto-detect",
+        "broker": "b9d40a31f765862f",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 140,
+        "y": 280,
+        "wires": [
+            [
+                "94a08178604b338b"
+            ]
+        ]
+    },
+    {
+        "id": "94a08178604b338b",
+        "type": "function",
+        "z": "2a7978bd843cbc7d",
+        "name": "function 1",
+        "func": "msg.topic = 'SELECT led_valor FROM led_parpadeo WHERE id = 1';\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 300,
+        "y": 380,
+        "wires": [
+            [
+                "b25424a916bedfe8"
+            ]
+        ]
+    },
+    {
+        "id": "85afa5a40ef4641b",
+        "type": "mqtt out",
+        "z": "2a7978bd843cbc7d",
+        "name": "",
+        "topic": "soporte/led_valor",
+        "qos": "0",
+        "retain": "false",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "b9d40a31f765862f",
+        "x": 770,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "ac99919fcdafa256",
+        "type": "function",
+        "z": "2a7978bd843cbc7d",
+        "name": "function 2",
+        "func": "// Suponiendo que la respuesta es un objeto con el campo 'led_valor'\nlet ledValor = msg.payload[0].led_valor;\nmsg.payload = JSON.stringify({ led_valor: ledValor });\nmsg.topic = 'soporte/led_valor';\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 380,
+        "wires": [
+            [
+                "85afa5a40ef4641b",
+                "d3d9b6da9f4e2dd2"
+            ]
+        ]
+    },
+    {
+        "id": "49d80ceb10f12678",
+        "type": "mysql",
+        "z": "2a7978bd843cbc7d",
+        "mydb": "628511a9be62c2be",
+        "name": "BD SoporteF",
+        "x": 570,
+        "y": 140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d3d9b6da9f4e2dd2",
+        "type": "debug",
+        "z": "2a7978bd843cbc7d",
+        "name": "debug 8",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 840,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "b0f686140614310c",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "628511a9be62c2be",
+        "type": "MySQLdatabase",
+        "name": "soporteF",
+        "host": "localhost",
+        "port": "3306",
+        "db": "soporteF",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "b9d40a31f765862f",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    }
+]
