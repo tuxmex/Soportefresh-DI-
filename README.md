@@ -181,6 +181,12 @@ Podrás encontrar el código de todo el proyecto correspondiente a lo siguiente:
 - Resultados finales:
 
 Se desarrolló el dispositivo, el cual puede ser usado de forma cómoda. Este dispositivo detecta información del ambiente y acciona los LEDs o el buzzer. Además, incluye la integración de una pantalla OLED y una aplicación Flutter.
+
+Video de agradecimiento
+[![Ir al video](https://img.youtube.com/vi/g0_VyuH-RGs/maxresdefault.jpg)](https://youtu.be/g0_VyuH-RGs)
+
+
+
  
 
 
