@@ -184,7 +184,7 @@ Se desarrolló el dispositivo, el cual puede ser usado de forma cómoda. Este di
 
 Video de agradecimiento
 
-[![Ir al video](https://img.youtube.com/vi/g0_VyuH-RGs/maxresdefault.jpg)](https://youtu.be/g0_VyuH-RGs)
+https://youtu.be/g0_VyuH-RGs
 
 
 
